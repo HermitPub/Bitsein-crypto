@@ -1,4 +1,18 @@
 # Bitsein-crypto
+修改于2023-09-14-晚间
+#### 更新如下
+> 重要！！！
+* 请重点看此部分，老教程可以忽略
+* Yandex、Flow、Kiwi浏览器如果英语、俄语基础不好，请在设置-语言中选择中文，特定设备需要退出app或设备重启生效；
+* 务必注意开发者选项的启用状态，三个浏览器均在「设置」的「关于xxx浏览器」中点击「应用版本」三次以启用生效，如果生效会出现一行英文/中文提示已进入（enable）开发者模式
+##### 更新说明
+1. Yandex、Flow、Kiwi三个浏览器安装包软升级，新增扩展自支持，之前已下载的用户无需重新下载，重启app自动生效；
+2. Yandex、Flow、Kiwi默认以隐私模式启动，不会记录及发送用户的访问记录。
+3. keplr、Metamask、Tp扩展支持在手机端浏览器输入链接访问下载，选择添加到Chrome（三个浏览器中哪个都可以）操作与在pc端无差别。
+4. 请按照下列指定的链接进行下载，添加移动端扩展，在不需要时可以关闭扩展，请勿安装其他的扩展以免冲突。
+5. keplr链接：https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap?utm_source=ext_sidebar&hl=zh-CN
+6. Metamask链接：https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?utm_source=ext_sidebar&hl=zh-CN
+7. Tp扩展链接：https://chrome.google.com/webstore/detail/tokenpocket/mfgccjchihfkkindfppnaooecgfneiii?utm_source=ext_sidebar&hl=zh-CN
 # 浏览器跨端实现方案
 
 ## 隐私数据说明
@@ -115,33 +129,6 @@ if account:
 5. 上述三款浏览器不会收集、上传用户的任何隐私信息（例如用户的钱包地址、私钥等），这些浏览器无中心化服务器控制，无后台程序。
 6. 建议浏览器只用于Hermit网络，其他网络请按照您之前的使用习惯。
 7. 关于Bitsein crypto，静待佳音，我们正在突破，相信不久将发布第二个测试版本。
-
-## 操作步骤（以Flow为例）
->
-> 其他的浏览器操作步骤一致，不赘述
-
-1. 步骤1-打开浏览器-打开右上角菜单
-![image](https://github.com/HermitPub/Bitsein-crypto/assets/143412823/660fd5dc-2aea-4a6b-99fa-daedb79a9161)
-
-2. 步骤2-找到设置-点击打开设置页面
-![image](https://github.com/HermitPub/Bitsein-crypto/assets/143412823/88425af6-8893-4234-b7cf-e613f7a29ffc)
-
-3. 步骤3-滑到底部，找到关于Flow-应用版本（点击三次）进入开发者模式
-![image](https://github.com/HermitPub/Bitsein-crypto/assets/143412823/c66d6197-b566-46b0-8378-3a03fae481e3)
-
-4. 步骤4-回到设置页面-点击扩展程序
-![image](https://github.com/HermitPub/Bitsein-crypto/assets/143412823/cf09cfd7-5419-4858-b984-13d1789292c3)
-
-5. 步骤5-打开扩展程序页面-打开开发者模式（如果步骤3没有成功，这里看不到开发者模式按钮开关）
-![image](https://github.com/HermitPub/Bitsein-crypto/assets/143412823/9f2c03a9-0292-442f-a84a-1e13a941a162)
-
-6. 步骤6-点击+（from .zip/.crx/.user.js),选择从文件加载，将你所需要的插件加载上去即可。
-![image](https://github.com/HermitPub/Bitsein-crypto/assets/143412823/81f732d3-5f03-44e4-b764-b16b909fea45)
-
-7. 步骤7-开始使用钱包插件，如果安装成功，你将在如下页面底部看见你所安装的扩展（在你不需要的时候可以在步骤4页面中选择关闭指定的扩展）
-![image](https://github.com/HermitPub/Bitsein-crypto/assets/143412823/9ffb721a-66fa-4f97-b14a-f0aefdb500c1)
-
-
 ## 浏览器及钱包扩展包sha256校验值
 
 1. Yandex
@@ -157,18 +144,6 @@ sha256校验值
 ```js
 732d1a59ef3b9d4512fd46bc24c554383be9dcb524dd8a863879d4227380f088
 ```
-5. keplr扩展
-```js
-1cf4e67ec0d630ad217b2109a9fc706302cf29a3f666ecde871ccb998ee19d56
-```
-7. Metamask扩展
-```js
-ad42258f5322a1da32ccbf6c11de0b52b6f351482c170529f7ba32d0ef1cfd84
-```
-9. TP扩展
-```js
-
-```
 ## 下载链接
-请点击此代码仓的releases链接进行下载：https://github.com/HermitPub/Bitsein-crypto/releases
+请点击此代码仓的releases链接（需要科学上网）进行下载：https://github.com/HermitPub/Bitsein-crypto/releases
 > 如果陌生人发送的安装包，请务必进行sha256校验！校验链接：https://github.com/HermitPub/Bitsein-crypto/blob/Yandex/url
