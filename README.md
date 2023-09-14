@@ -13,6 +13,7 @@
 5. keplr链接：https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap?utm_source=ext_sidebar&hl=zh-CN
 6. Metamask链接：https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?utm_source=ext_sidebar&hl=zh-CN
 7. Tp扩展链接：https://chrome.google.com/webstore/detail/tokenpocket/mfgccjchihfkkindfppnaooecgfneiii?utm_source=ext_sidebar&hl=zh-CN
+8. 下载好keplr扩展程序后，请在手机端打开如下任意一个rpc进行连接：https://scan.hermit.network/#/rpc或者https://ping.pub/wallet/keplr（点击add chain to keplr）或者直接打开swap进行连接到Hermit网络。
 # 浏览器跨端实现方案
 
 ## 隐私数据说明
