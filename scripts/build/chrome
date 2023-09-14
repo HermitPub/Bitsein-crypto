@@ -1,0 +1,20 @@
+#!/bin/bash
+set -e
+
+PLATFORM=${1:-}
+MODE=${2:-production}
+
+ID="${PLATFORM}chrome"
+CWD=$(dirname "$0")
+"$CWD/_base.sh" $ID $MODE
+
+cd dist
+	rm -f $ID.zip
+	zip -r $ID.zip $ID
+	mkdir -p qa
+	rm -rf qa/$ID
+	unzip $ID.zip -d qa
+	s_archive="qa/$ID.v$(node -p -e 'require("../package.json").version.replace(/\./g, "_")').zip"
+	rm -f $s_archive
+	cp $ID.zip $s_archive
+cd ..
