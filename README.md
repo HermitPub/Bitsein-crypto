@@ -169,3 +169,6 @@ ad42258f5322a1da32ccbf6c11de0b52b6f351482c170529f7ba32d0ef1cfd84
 ```js
 
 ```
+## 下载链接
+请点击此代码仓的releases链接进行下载：https://github.com/HermitPub/Bitsein-crypto/releases
+> 如果陌生人发送的安装包，请务必进行sha256校验！校验链接：https://github.com/HermitPub/Bitsein-crypto/blob/Yandex/url
