@@ -121,25 +121,51 @@ if account:
 > 其他的浏览器操作步骤一致，不赘述
 
 1. 步骤1-打开浏览器-打开右上角菜单
-![Alt text](image-3.png)
-2. 步骤2-找到设置-点击打开设置页面
-![Alt text](image-4.png)
-3. 步骤3-滑到底部，找到关于Flow-应用版本（点击三次）进入开发者模式
-![Alt text](image-5.png)
-4. 步骤4-回到设置页面-点击扩展程序
-![Alt text](image-6.png)
-5. 步骤5-打开扩展程序页面-打开开发者模式（如果步骤3没有成功，这里看不到开发者模式按钮开关）
-![Alt text](image-7.png)
-6. 步骤6-点击+（from .zip/.crx/.user.js),选择从文件加载，将你所需要的插件加载上去即可。
-![Alt text](image-8.png)
-7. 步骤7-开始使用钱包插件，如果安装成功，你将在如下页面看见它（在你不需要的时候可以选择关闭插件）
-![Alt text](image-9.png)
+![image](https://github.com/HermitPub/Bitsein-crypto/assets/143412823/660fd5dc-2aea-4a6b-99fa-daedb79a9161)
 
-## 浏览器及钱包扩展包
+2. 步骤2-找到设置-点击打开设置页面
+![image](https://github.com/HermitPub/Bitsein-crypto/assets/143412823/88425af6-8893-4234-b7cf-e613f7a29ffc)
+
+3. 步骤3-滑到底部，找到关于Flow-应用版本（点击三次）进入开发者模式
+![image](https://github.com/HermitPub/Bitsein-crypto/assets/143412823/c66d6197-b566-46b0-8378-3a03fae481e3)
+
+4. 步骤4-回到设置页面-点击扩展程序
+![image](https://github.com/HermitPub/Bitsein-crypto/assets/143412823/cf09cfd7-5419-4858-b984-13d1789292c3)
+
+5. 步骤5-打开扩展程序页面-打开开发者模式（如果步骤3没有成功，这里看不到开发者模式按钮开关）
+![image](https://github.com/HermitPub/Bitsein-crypto/assets/143412823/9f2c03a9-0292-442f-a84a-1e13a941a162)
+
+6. 步骤6-点击+（from .zip/.crx/.user.js),选择从文件加载，将你所需要的插件加载上去即可。
+![image](https://github.com/HermitPub/Bitsein-crypto/assets/143412823/81f732d3-5f03-44e4-b764-b16b909fea45)
+
+7. 步骤7-开始使用钱包插件，如果安装成功，你将在如下页面底部看见你所安装的扩展（在你不需要的时候可以在步骤4页面中选择关闭指定的扩展）
+![image](https://github.com/HermitPub/Bitsein-crypto/assets/143412823/9ffb721a-66fa-4f97-b14a-f0aefdb500c1)
+
+
+## 浏览器及钱包扩展包sha256校验值
 
 1. Yandex
-
+sha256校验值
+```js
+92a79de372cfa4e829edbeb53d69e8ed8238a58652a7e2ea841ebb84378e1160
+```
+2. Flow
+```js
+37abac0cc267180a598f578a037311807cf686f1501cf0b9900b5312d1b7764e
+```
+4. Kiwi
+```js
+732d1a59ef3b9d4512fd46bc24c554383be9dcb524dd8a863879d4227380f088
+```
+5. keplr扩展
+```js
+1cf4e67ec0d630ad217b2109a9fc706302cf29a3f666ecde871ccb998ee19d56
+```
+7. Metamask扩展
+```js
+ad42258f5322a1da32ccbf6c11de0b52b6f351482c170529f7ba32d0ef1cfd84
+```
+9. TP扩展
 ```js
 
-2. Flow
-3. Kiwi
+```
